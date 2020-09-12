@@ -135,3 +135,23 @@ th, td, th.org-left {
   padding-right: 0.6rem;
   text-align: left;
 }
+
+
+.todo {
+  font-family: sans;
+  font-size: 10pt;
+  font-weight: normal;
+  color: seagreen;
+  padding-right: 0.2rem;
+  text-transform: lowercase;
+}
+.todo::before {
+  content: "(";
+}
+.todo::after{
+  content: ")";
+}
+
+.done {
+  display: none;
+}
