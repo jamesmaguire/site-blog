@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="256"
@@ -18,60 +17,7 @@
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="favicon.svg">
   <defs
-     id="defs2">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient870">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop866" />
-      <stop
-         id="stop874"
-         offset="0.61399794"
-         style="stop-color:#ffffff;stop-opacity:0.43137255;" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
-         offset="1"
-         id="stop868" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient860"
-       inkscape:collect="always">
-      <stop
-         id="stop856"
-         offset="0"
-         style="stop-color:#0d2b4d;stop-opacity:1" />
-      <stop
-         style="stop-color:#3a7681;stop-opacity:0.92156863"
-         offset="0.61687076"
-         id="stop862" />
-      <stop
-         id="stop858"
-         offset="1"
-         style="stop-color:#7eb68c;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient860"
-       id="linearGradient854"
-       x1="36.813976"
-       y1="238.60948"
-       x2="37.195381"
-       y2="287.34607"
-       gradientUnits="userSpaceOnUse" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient870"
-       id="radialGradient872"
-       cx="34.36274"
-       cy="260.69812"
-       fx="34.36274"
-       fy="260.69812"
-       r="28.839584"
-       gradientTransform="matrix(0.89315271,-0.56695142,0.58195961,0.91679603,-147.64734,43.686645)"
-       gradientUnits="userSpaceOnUse" />
-  </defs>
+     id="defs2" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -79,17 +25,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142135"
-     inkscape:cx="0.38985871"
-     inkscape:cy="42.634973"
+     inkscape:zoom="1.9999999"
+     inkscape:cx="126.20854"
+     inkscape:cy="82.794899"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1868"
-     inkscape:window-height="1016"
+     inkscape:window-width="1254"
+     inkscape:window-height="1376"
      inkscape:window-x="52"
      inkscape:window-y="27"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      fit-margin-top="3"
      fit-margin-left="3"
      fit-margin-bottom="3"
@@ -103,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -113,22 +59,9 @@
      id="layer1"
      transform="translate(-0.89294795,-229.34499)"
      style="opacity:0.92000002">
-    <rect
-       style="opacity:1;fill:url(#linearGradient854);fill-opacity:1;stroke:none;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.25821599"
-       id="rect846"
-       width="67.73333"
-       height="67.73333"
-       x="0.89294797"
-       y="229.34499" />
-    <circle
-       style="opacity:1;fill:url(#radialGradient872);fill-opacity:1;stroke:none;stroke-width:9.54253483;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.25821599"
-       id="path864"
-       cx="34.759613"
-       cy="263.21167"
-       r="33.866665" />
     <g
        id="g827"
-       transform="matrix(3.8487293,0,0,3.8487293,12.873393,-820.36896)">
+       transform="matrix(4.3866326,0,0,4.3866326,9.2562368,-971.98861)">
       <circle
          cy="281.82547"
          cx="5.8721714"
