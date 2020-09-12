@@ -1,0 +1,20 @@
+#+title: Blog
+#+setupfile: index.setup
+
+* Todos
+** DONE Update favicon
+** DONE Check on post.setup
+** DONE Scratch out common.css
+** DONE Draft out blog post
+** DONE Add common.css back in
+** TODO Remove UP|HOME banner
+** TODO Style h1, h2
+** TODO Style index page
+** TODO Style images
+** TODO Serve fonts directly
+* Posts
+
+| Title                  | Date        | Author |
+|------------------------+-------------+--------|
+| [[file:posts/bulk-foods.org][Bulk foods]]             | 10 Sep 2020 | James  |
+| [[file:posts/plastic-recycling.org][Soft plastic recycling]] |             | James  |

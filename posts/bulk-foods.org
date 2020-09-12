@@ -1,0 +1,40 @@
+#+title: Bulk food stores
+#+author: James
+#+date: 10 Sep, 2020
+#+setupfile: post.setup
+#+include: header.org
+
+Lately we've been shopping more at our local bulk foods store, [[https://thesourcebulkfoods.com.au/][The Source]]. It's good for finding interesting foods. The 6 grain porridge mix has been a welcome addition to our breakfast rotation.
+
+It also removes the need to go through as many soft plastic packages each week. It doesn't seem like much, but it adds up over time. The store has a bunch of paper bags, same as the mushroom bags at Coles/Woolies, or you can just bring your own containers.
+
+In theory the bulk food store ingredients should be cheaper than a plastic packaged equivalent, but it always feels more expensive. It's hard to tell since it's all weight based, so lets have a look at the numbers.
+
+#+caption: [[tbl1][Cost per 100g]]
+#+label: tbl1
+| Ingredient           | The Source | Woolies | Coles  | Hipster tax (%) |
+|----------------------+------------+---------+--------+-----------------|
+| Australian Oats      | $ 0.49     | $ 0.19  | $ 0.18 |             165 |
+| Chickpeas            | $ 1.65     | $ 0.48  | $ 0.48 |             244 |
+| Organic plain flour  | $ 0.45     | $ 0.45  | $ 0.45 |               0 |
+| Plain flour^         | $ 0.45     | $ 0.10  | $ 0.09 |             374 |
+|----------------------+------------+---------+--------+-----------------|
+| Jasmine rice^        | $ 1.00     | $ 0.32  | $ 0.35 |             199 |
+| Organic Jasmine rice | $ 1.00     | $ 0.64  |        |              56 |
+| Brown rice^          | $ 1.20     | $ 0.35  | $ 0.33 |             253 |
+| Organic brown rice   | $ 1.20     | $ 0.47  |        |             155 |
+| Medium grain rice^   | $ 0.80     | $ 0.33  | $ 0.35 |             135 |
+|----------------------+------------+---------+--------+-----------------|
+| Raw cashews          | $ 2.90     | $ 2.20  | $ 2.25 |              30 |
+| Almonds              | $ 2.20     | $ 1.71  | $ 1.50 |              37 |
+#+begin_quote
+*^* The Source only has organic variety, which is compared to non-organic from Coles/Woolies
+#+end_quote
+
+Looks like we've been paying a pretty large hipster tax. Some of this can be forgiven since The Source only carries organic varieties of some ingredients. If you opt for the organic rices from Coles and Woolies you'd get something closer to The Source's price. Other ingredients like the oats and chickpeas, which aren't organic from The Source, are more than twice the price. Even for nuts you'll expect to pay an extra 30%.
+
+The results are dissapointing from a cost point of view. The Source is a little bit out of our way, but we're usually happy to go to save a few extra bags of plastic. It's hard to justify the much higher costs though.
+
+For now, I'll still be heading there for the interesting products that aren't available at other supermarkets: 6 grain mixes, interesting flours and loose tea leaves. That said, I might have to reconsider getting staple foods there.
+
+For those soft plastic packages, I'll write another post soon about [[file:plastic-recycling.org][soft-plastic recycling]].
