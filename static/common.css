@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
+#org-div-home-and-up {
+  display: none;
 }
 
 body {
@@ -17,6 +16,7 @@ body {
   width: 55ch;
   max-width: 80%;
   margin: auto;
+  padding-top: 1rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid lightgrey;
   margin-bottom: 5%;
@@ -43,16 +43,38 @@ body {
   font-size: 150%;
   font-weight: normal;
   text-align: left;
-  padding-top: 2rem;
-  padding-bottom: 0.1rem;
+  margin-top: 3rem;
+  margin-bottom: 0.2rem;
+}
+
+.subtitle {
+  font-size: 80%;
+  color: #444;
+  font-weight: normal;
 }
 
 .metadata p {
   font-family: 'Libre Baskerville',serif;
   font-size: 80%;
-  padding-top: 0.5rem;
-  padding-bottom: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
   color: #777;
+}
+
+h2 {
+  font-family: 'Libre Baskerville',serif;
+  font-size: 100%;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+h3 {
+  font-family: 'Libre Baskerville',serif;
+  font-size: 90%;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
 }
 
 a {
@@ -69,8 +91,28 @@ p {
 
 blockquote {
   font-size: 90%;
-  padding-top: 0.5rem;
   padding-left: 0.5rem;
+  margin: 0;
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+}
+.figure {
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 0.1rem;
+  font-size: 90%;
+  text-align: center;
+}
+.figure p {
+  margin-bottom: 0.5rem;
+}
+.figure-number {
+  color: #777;
+  font-weight: normal;
 }
 
 table {

@@ -1,4 +1,4 @@
-#+title: Bulk food stores
+#+title: Bulk food store prices
 #+author: James
 #+date: 10 Sep, 2020
 #+setupfile: post.setup
@@ -28,7 +28,7 @@ In theory the bulk food store ingredients should be cheaper than a plastic packa
 | Raw cashews          | $ 2.90     | $ 2.20  | $ 2.25 |              30 |
 | Almonds              | $ 2.20     | $ 1.71  | $ 1.50 |              37 |
 #+begin_quote
-*^* The Source only has organic variety, which is compared to non-organic from Coles/Woolies
+*^* These items are only available as organic from The Source, but are compared to non-organic from Coles/Woolies
 #+end_quote
 
 Looks like we've been paying a pretty large hipster tax. Some of this can be forgiven since The Source only carries organic varieties of some ingredients. If you opt for the organic rices from Coles and Woolies you'd get something closer to The Source's price. Other ingredients like the oats and chickpeas, which aren't organic from The Source, are more than twice the price. Even for nuts you'll expect to pay an extra 30%.
