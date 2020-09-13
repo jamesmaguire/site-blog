@@ -136,6 +136,12 @@ th, td, th.org-left {
   text-align: left;
 }
 
+.footdef {
+  margin-bottom: 1rem;
+}
+.footpara {
+  display: inline;
+}
 
 .todo {
   font-family: sans;
