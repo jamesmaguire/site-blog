@@ -1,0 +1,30 @@
+#+title: Soft-plastics recycling
+#+author: James
+#+date: 10 Sep, 2020
+#+setupfile: post.setup
+#+include: header.org
+
+* How to
+
+Soft plastic recycling is pretty easy to do, and saves a bunch of room in the garbage. Since we started collecting our soft plastic rubbish separately, we only need to empty our garbage (red) bins every three weeks or so.
+
+Soft plastics are pretty much any plastic you can scrunch up in your hand. Stuff like plastic bags, biscuit packets, cereal inner liners or frozen veggie bags.
+
+Just a quick note on fresh produce bags. You can recycle them in soft plastic recycling, but it's pretty easy to avoid using them in the first place. Just chuck your veggies straight in the basket/trolley. Or if it's something hard to keep track of like brussels sprouts or loose green beans, grab a paper mushroom bag instead.
+
+How and where do we recycle our soft plastics? We just collect our soft plastics in a bag like so:
+
+#+name: plasticsfig
+#+caption: [[plasticsfig][A small collection we've been working on for a few weeks]]
+[[file:../static/img/plastic-recycling.jpg]]
+
+And once full, drop it off in a soft plastic recycling bin, like so:
+
+#+name: binfig
+#+caption: [[binfig][Soft plastics recycling outside of Woolworths]]
+[[file:../static/img/plastic-bins.jpg]]
+
+If you know what you're looking for, they're fairly easy to find. Every Coles and Woolworths I've been to lately has one out the front.
+
+* TODO What is the impact of soft plastics?
+* TODO What do Coles/Woolies do with it?
