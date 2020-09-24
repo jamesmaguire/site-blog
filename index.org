@@ -1,7 +1,8 @@
 #+title: Blog
 #+setupfile: index.setup
 
-* TODO [[file:posts/plastic-recycling.org][Soft plastic recycling]] XX September 2020
+* TODO Worm farmer XX Month 2020                                   :noexport:
+* DONE [[file:posts/plastic-recycling.org][Soft plastic recycling]] 24 September 2020
 * DONE [[file:posts/bulk-foods.org][Bulk food store prices]] 10 September 2020
 
 * Todos                                                            :noexport:
