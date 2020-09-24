@@ -136,6 +136,11 @@ th, td, th.org-left {
   text-align: left;
 }
 
+.footnotes {
+  border-top: 1px solid lightgrey;
+  padding-top: 2rem;
+  margin-top: 3rem;
+}
 .footdef {
   margin-bottom: 1rem;
 }
