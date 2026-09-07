@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-09-07 Mon 20:51 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Meat raffle probabilities</title>
+<meta name="author" content="James" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="../static/common.css" />
+<link rel="icon" type="image/ico" href="../static/icon/favicon.svg" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="../index.html"> UP </a>
+ |
+ <a accesskey="H" href="../index.html"> HOME </a>
+</div><div id="content" class="content">
+<h1 class="title">Meat raffle probabilities</h1>
+<div class="metadata" id="org4fdee57">
+<p>
+Written by <i>James</i> on <i>6 Sep, 2026</i> | <a href="../index.html">Other blog posts</a>
+</p>
+
+</div>
+
+<p>
+Last week I found myself at The Builder's club for dinner to celebrate Andy's Australian citizenship. The club was running a meat raffle that had some interesting statistics to it.
+</p>
+
+<p>
+For $5 you would be given a ticket with 50 numbers, $10 gives you 100 numbers and so on (10 entries per dollar). I wondered why not have $5 per single entry, wouldn't it be the same? Actually not, since you can now win multiple meat trays.
+</p>
+<div id="outline-container-org831b92a" class="outline-2">
+<h2 id="org831b92a">Hypothesis</h2>
+<div class="outline-text-2" id="text-org831b92a">
+<p>
+My hypothesis is that receiving a large number of entries increases the chance of winning zero meat trays.
+</p>
+
+<p>
+I'm also hypothesising that the expected value has no change (the loss in chance of winning zero is made up in the chance to win 2, or 3, or more).
+</p>
+</div>
+</div>
+<div id="outline-container-org1466411" class="outline-2">
+<h2 id="org1466411">Notation</h2>
+<div class="outline-text-2" id="text-org1466411">
+<p>
+Let's use the following notation:
+</p>
+
+<ul class="org-ul">
+<li>\(t\) = number of tickets (entries)</li>
+<li>\(n\) = numbers per ticket</li>
+<li>\(N\) = total numbers (\(N = tn\))</li>
+<li>\(z\) = number of prizes</li>
+</ul>
+
+<p>
+We will also need the combination function; the number of distinct ways to select \(k\) elements from a set of \(n\) elements is \(C^n_k = \frac{n!}{k!(n-k)!}\).
+</p>
+</div>
+</div>
+<div id="outline-container-org55e9683" class="outline-2">
+<h2 id="org55e9683">Chances</h2>
+<div class="outline-text-2" id="text-org55e9683">
+<p>
+In order to win zero prizes, we can determine the number of combinations that don't include our \(e\) numbers divides by the total number of combinations:
+</p>
+
+<p>
+\(p(win=0) = C^{N-n}_z / C^N_z\)
+</p>
+
+<p>
+If everyone has 1 number, there are 100 players, and 10 trays, we get:
+</p>
+
+<p>
+\(p(wins=0) = C^{100-1}_{10} / C^{100}_{10} = 0.9000\)
+</p>
+
+<p>
+\(p(wins=1) = 0.1000\)
+</p>
+
+<p>
+If everyone has 10 numbers, there are 100 players (1000 numbers), and 10 trays, we get:
+</p>
+
+<p>
+\(p(wins=0) = C^{1000-10}_{10} / C^{1000}_{10} = 0.9040\)
+</p>
+
+<p>
+\(p(wins=1) = C^{10}_1 C^{990}_9 / C^{1000}_{10} = 0.0921\)
+</p>
+
+<p>
+\(p(wins=2) = C^{10}_2 C^{990}_8 / C^{1000}_{10} = 0.0038\)
+</p>
+
+<p>
+This generalises to:
+</p>
+
+<p>
+\(p(wins=k) = C^n_k C^{N-n}_{z-k} / C^N_z\)
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>

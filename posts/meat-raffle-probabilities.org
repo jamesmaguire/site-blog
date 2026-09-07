@@ -1,0 +1,50 @@
+#+title: Meat raffle probabilities
+#+author: James
+#+date: 6 Sep, 2026
+#+setupfile: post.setup
+#+include: header.org
+
+Last week I found myself at The Builder's club for dinner to celebrate Andy's Australian citizenship. The club was running a meat raffle that had some interesting statistics to it.
+
+For $5 you would be given a ticket with 50 numbers, $10 gives you 100 numbers and so on (10 entries per dollar). I wondered why not have $5 per single entry, wouldn't it be the same? Actually not, since you can now win multiple meat trays.
+
+* Hypothesis
+
+My hypothesis is that receiving a large number of entries increases the chance of winning zero meat trays.
+
+I'm also hypothesising that the expected value has no change (the loss in chance of winning zero is made up in the chance to win 2, or 3, or more).
+
+* Notation
+
+Let's use the following notation:
+
+- $t$ = number of tickets (entries)
+- $n$ = numbers per ticket
+- $N$ = total numbers ($N = tn$)
+- $z$ = number of prizes
+
+We will also need the combination function; the number of distinct ways to select $k$ elements from a set of $n$ elements is $C^n_k = \frac{n!}{k!(n-k)!}$.
+
+* Chances
+
+In order to win zero prizes, we can determine the number of combinations that don't include our $e$ numbers divides by the total number of combinations:
+
+$p(win=0) = C^{N-n}_z / C^N_z$
+
+If everyone has 1 number, there are 100 players, and 10 trays, we get:
+
+$p(wins=0) = C^{100-1}_{10} / C^{100}_{10} = 0.9000$
+
+$p(wins=1) = 0.1000$
+
+If everyone has 10 numbers, there are 100 players (1000 numbers), and 10 trays, we get:
+
+$p(wins=0) = C^{1000-10}_{10} / C^{1000}_{10} = 0.9040$
+
+$p(wins=1) = C^{10}_1 C^{990}_9 / C^{1000}_{10} = 0.0921$
+
+$p(wins=2) = C^{10}_2 C^{990}_8 / C^{1000}_{10} = 0.0038$
+
+This generalises to:
+
+$p(wins=k) = C^n_k C^{N-n}_{z-k} / C^N_z$
