@@ -31,13 +31,13 @@ In order to win zero prizes, we can determine the number of combinations that do
 
 $p(win=0) = C^{N-n}_z / C^N_z$
 
-If everyone has 1 number, there are 100 players, and 10 trays, we get:
+If everyone has $n=1$ number, there are $t=100$ players ($N=100$), and $z=10$ trays, we get:
 
 $p(wins=0) = C^{100-1}_{10} / C^{100}_{10} = 0.9000$
 
 $p(wins=1) = 0.1000$
 
-If everyone has 10 numbers, there are 100 players (1000 numbers), and 10 trays, we get:
+If everyone has $n=10$ numbers, there are $t=100$ players ($N=1000$), and $z=10$ trays, we get:
 
 $p(wins=0) = C^{1000-10}_{10} / C^{1000}_{10} = 0.9040$
 
@@ -48,3 +48,17 @@ $p(wins=2) = C^{10}_2 C^{990}_8 / C^{1000}_{10} = 0.0038$
 This generalises to:
 
 $p(wins=k) = C^n_k C^{N-n}_{z-k} / C^N_z$
+
+or
+
+$p(wins \ge k) = 1 - \sum^{k-1}_{i=0} {C^n_i C^{N-n}_{z-i} / C^N_z}$
+
+* Graph
+
+Given the number of tickets is $t=100$, and number of trays to win is $z=10$ trays, the following shows the probabilies for 1, 10 and 100 number per ticket. As predicted the probability of no trays increases but for the case of $n=10$ and $n=100$ the probability for 2 or more wins becomes higher. Note that when $n=1$ the probability of 2 or more wins is zero.
+
+[[./meatraffleplot1.png]]
+
+Given the number of tickets is $t=100$, and number of trays to win is $z=10$ trays, the following shows the probability of winning no trays. As predicted the probability of no trays increases as the numbers $n$ increases (although it's pretty marginal, noting the axes do not start at zero).
+
+[[./meatraffleplot2.png]]

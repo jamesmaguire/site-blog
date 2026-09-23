@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-09-07 Mon 20:51 -->
+<!-- 2026-09-23 Wed 21:33 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Meat raffle probabilities</title>
@@ -52,7 +52,7 @@
  <a accesskey="H" href="../index.html"> HOME </a>
 </div><div id="content" class="content">
 <h1 class="title">Meat raffle probabilities</h1>
-<div class="metadata" id="org4fdee57">
+<div class="metadata" id="org14b748e">
 <p>
 Written by <i>James</i> on <i>6 Sep, 2026</i> | <a href="../index.html">Other blog posts</a>
 </p>
@@ -66,9 +66,9 @@ Last week I found myself at The Builder's club for dinner to celebrate Andy's Au
 <p>
 For $5 you would be given a ticket with 50 numbers, $10 gives you 100 numbers and so on (10 entries per dollar). I wondered why not have $5 per single entry, wouldn't it be the same? Actually not, since you can now win multiple meat trays.
 </p>
-<div id="outline-container-org831b92a" class="outline-2">
-<h2 id="org831b92a">Hypothesis</h2>
-<div class="outline-text-2" id="text-org831b92a">
+<div id="outline-container-org65ec304" class="outline-2">
+<h2 id="org65ec304">Hypothesis</h2>
+<div class="outline-text-2" id="text-org65ec304">
 <p>
 My hypothesis is that receiving a large number of entries increases the chance of winning zero meat trays.
 </p>
@@ -78,9 +78,9 @@ I'm also hypothesising that the expected value has no change (the loss in chance
 </p>
 </div>
 </div>
-<div id="outline-container-org1466411" class="outline-2">
-<h2 id="org1466411">Notation</h2>
-<div class="outline-text-2" id="text-org1466411">
+<div id="outline-container-org9919aa9" class="outline-2">
+<h2 id="org9919aa9">Notation</h2>
+<div class="outline-text-2" id="text-org9919aa9">
 <p>
 Let's use the following notation:
 </p>
@@ -97,9 +97,9 @@ We will also need the combination function; the number of distinct ways to selec
 </p>
 </div>
 </div>
-<div id="outline-container-org55e9683" class="outline-2">
-<h2 id="org55e9683">Chances</h2>
-<div class="outline-text-2" id="text-org55e9683">
+<div id="outline-container-org4d67ab0" class="outline-2">
+<h2 id="org4d67ab0">Chances</h2>
+<div class="outline-text-2" id="text-org4d67ab0">
 <p>
 In order to win zero prizes, we can determine the number of combinations that don't include our \(e\) numbers divides by the total number of combinations:
 </p>
@@ -109,7 +109,7 @@ In order to win zero prizes, we can determine the number of combinations that do
 </p>
 
 <p>
-If everyone has 1 number, there are 100 players, and 10 trays, we get:
+If everyone has \(n=1\) number, there are \(t=100\) players (\(N=100\)), and \(z=10\) trays, we get:
 </p>
 
 <p>
@@ -121,7 +121,7 @@ If everyone has 1 number, there are 100 players, and 10 trays, we get:
 </p>
 
 <p>
-If everyone has 10 numbers, there are 100 players (1000 numbers), and 10 trays, we get:
+If everyone has \(n=10\) numbers, there are \(t=100\) players (\(N=1000\)), and \(z=10\) trays, we get:
 </p>
 
 <p>
@@ -143,6 +143,38 @@ This generalises to:
 <p>
 \(p(wins=k) = C^n_k C^{N-n}_{z-k} / C^N_z\)
 </p>
+
+<p>
+or
+</p>
+
+<p>
+\(p(wins \ge k) = 1 - \sum^{k-1}_{i=0} {C^n_i C^{N-n}_{z-i} / C^N_z}\)
+</p>
+</div>
+</div>
+<div id="outline-container-org6ad3082" class="outline-2">
+<h2 id="org6ad3082">Graph</h2>
+<div class="outline-text-2" id="text-org6ad3082">
+<p>
+Given the number of tickets is \(t=100\), and number of trays to win is \(z=10\) trays, the following shows the probabilies for 1, 10 and 100 number per ticket. As predicted the probability of no trays increases but for the case of \(n=10\) and \(n=100\) the probability for 2 or more wins becomes higher. Note that when \(n=1\) the probability of 2 or more wins is zero.
+</p>
+
+
+<div id="org867fefe" class="figure">
+<p><img src="./meatraffleplot1.png" alt="meatraffleplot1.png" />
+</p>
+</div>
+
+<p>
+Given the number of tickets is \(t=100\), and number of trays to win is \(z=10\) trays, the following shows the probability of winning no trays. As predicted the probability of no trays increases as the numbers \(n\) increases (although it's pretty marginal, noting the axes do not start at zero).
+</p>
+
+
+<div id="org077f586" class="figure">
+<p><img src="./meatraffleplot2.png" alt="meatraffleplot2.png" />
+</p>
+</div>
 </div>
 </div>
 </div>
